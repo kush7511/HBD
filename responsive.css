@@ -1,0 +1,98 @@
+@media (max-width: 1024px) {
+  .hero-3d { width: 58vw; height: 48vh; opacity: 0.62; }
+  .birthday-friend { width: 124px; height: 154px; transform: scale(0.86); }
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+  .timeline-item { gap: 30px; }
+}
+
+@media (max-width: 768px) {
+  .section-shell { width: min(100% - 28px, 680px); }
+  .site-header { top: 12px; border-radius: 24px; }
+  .menu-toggle { display: block; }
+  .main-nav {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    display: grid;
+    gap: 6px;
+    padding: 10px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    background: rgba(255,255,255,0.9);
+    box-shadow: var(--shadow);
+    transform-origin: top;
+    transform: scaleY(0.86);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.22s ease;
+  }
+  .site-header.dark .main-nav { background: rgba(36,24,50,0.94); }
+  .main-nav.is-open { opacity: 1; visibility: visible; transform: scaleY(1); }
+  .main-nav a { text-align: center; padding: 14px 16px; }
+  .hero { padding-top: 102px; align-content: center; }
+  .hero-3d { inset: 13% 0 auto auto; width: 100%; height: 42vh; opacity: 0.36; }
+  .hero-orbit { width: 64px; height: 64px; font-size: 30px; }
+  .hero-orbit-one { left: 2%; top: 20%; }
+  .hero-orbit-two { right: 4%; bottom: 16%; }
+  .birthday-friend { left: 18px; bottom: 62px; transform: scale(0.72); }
+  .photo-grid { grid-template-columns: 1fr; }
+  .typed-message { min-height: 390px; }
+  .timeline::before { left: 12px; }
+  .timeline-item, .timeline-item:nth-child(even) {
+    grid-template-columns: 1fr;
+    padding-left: 34px;
+    gap: 16px;
+  }
+  .timeline-item:nth-child(even) .timeline-card,
+  .timeline-item:nth-child(even) .timeline-photo {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .timeline-dot { left: 12px; top: 28px; }
+  .gallery-masonry { columns: 2 220px; }
+  .lightbox { padding: 18px; }
+  .lightbox figure { width: min(100%, 92vw); }
+  .lightbox img { max-width: 100%; max-height: 68vh; }
+  .lightbox-nav { top: auto; bottom: 22px; transform: none; }
+  .lightbox-nav.prev { left: calc(50% - 66px); }
+  .lightbox-nav.next { right: calc(50% - 66px); }
+  .cake-art { right: 4%; bottom: 4%; transform: scale(0.75); }
+  .cursor-dot { display: none; }
+  .music-player {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    width: auto;
+    padding: 10px;
+  }
+  .music-playlist { max-height: 112px; }
+  .music-topline strong { font-size: 0.86rem; }
+}
+
+@media (max-width: 480px) {
+  .section-shell { width: min(100% - 22px, 430px); }
+  .site-header { width: calc(100% - 20px); }
+  .hero h1 { font-size: clamp(2.7rem, 16vw, 4.5rem); }
+  .hero h1 strong { font-size: clamp(2.5rem, 14vw, 4.1rem); }
+  .primary-cta, .secondary-cta { width: 100%; min-height: 56px; padding-inline: 16px; }
+  .birthday-friend { opacity: 0.82; bottom: 36px; left: 0; transform: scale(0.58); }
+  .memory-preview, .message-section, .gift-section { padding: 62px 0; }
+  .message-card { padding: 24px 16px; }
+  .typed-message { min-height: 430px; }
+  .gift-box { transform: scale(0.86); }
+  .gallery-masonry { columns: 1; }
+  .photo-card { padding: 9px 9px 15px; }
+  .photo-card img { aspect-ratio: 3 / 4; object-fit: contain; background: rgba(255,255,255,0.66); }
+  .timeline-photo img { aspect-ratio: 4 / 5; object-fit: contain; background: rgba(255,255,255,0.66); }
+  .gallery-item { padding: 8px; }
+  .gallery-item img { object-fit: contain; background: rgba(255,255,255,0.66); }
+  .final-photo-frame { width: min(310px, 82vw); }
+  .final-photo-frame img { object-fit: contain; background: rgba(255,255,255,0.42); }
+  .music-player { font-size: 0.92rem; }
+  .music-controls button { min-height: 44px; }
+  .music-toggles { grid-template-columns: 1fr; }
+  .site-credit { width: calc(100% - 24px); padding-bottom: 160px; }
+  .site-credit.dark { margin-top: -44px; padding-bottom: 24px; }
+  .final-stage { padding-top: 104px; }
+}

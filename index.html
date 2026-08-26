@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff3f9">
+  <title>Happy Birthday, Anugya varshney!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="music-engine.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body data-page="home">
+  <div class="loader" aria-live="polite">
+    <div class="loader-heart">♡</div>
+    <p>Preparing something special...</p>
+    <div class="loader-line"><span></span></div>
+  </div>
+  <canvas id="sparkleCanvas" aria-hidden="true"></canvas>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="transition-layer" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand page-link" href="index.html" aria-label="Birthday home">AV</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="page-link active" href="index.html">Home</a>
+      <a class="page-link" href="memories.html">Memories</a>
+      <a class="page-link" href="gallery.html">Gallery</a>
+      <a class="page-link" href="surprise.html">Surprise</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section-shell">
+      <div id="hero3d" class="hero-3d" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true">✦</div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true">♡</div>
+      <div class="hero-content reveal">
+        <p class="script-kicker">Today isn't just another day...</p>
+        <h1><span>It's Her Day!</span> <strong>Happy Birthday, <b data-config-name>Anugya varshney</b>!</strong></h1>
+        <p class="hero-subtitle" data-config-hero-subtitle>A little surprise has been prepared especially for you...</p>
+        <button class="primary-cta magnetic" type="button" data-open-surprise>✨ Open Your Surprise ✨</button>
+      </div>
+      <div class="birthday-friend" data-character aria-hidden="true">
+        <div class="friend-ear left"></div><div class="friend-ear right"></div>
+        <div class="friend-face"><span class="eye left"></span><span class="eye right"></span><span class="cheek left"></span><span class="cheek right"></span><span class="nose"></span><span class="smile"></span></div>
+        <div class="friend-body"></div><div class="friend-arm"></div>
+      </div>
+      <a href="#memories" class="scroll-cue" aria-label="Scroll to memories">↓</a>
+    </section>
+    <section id="memories" class="memory-preview section-shell">
+      <div class="section-heading reveal"><span class="eyebrow">✨ Beautiful Memories ✨</span><h2>Little frames for big feelings</h2></div>
+      <div class="photo-grid" data-photo-preview></div>
+      <div class="center-row reveal"><a class="secondary-cta page-link" href="gallery.html">Explore the Gallery</a></div>
+    </section>
+    <section class="message-section section-shell">
+      <div class="message-card reveal"><span class="eyebrow">A Little Message For You 💌</span><div class="typed-message" data-typed-message aria-live="polite"></div></div>
+    </section>
+    <section class="gift-section section-shell">
+      <div class="section-heading reveal"><span class="eyebrow">One more smile</span><h2>There's something inside...</h2></div>
+      <button class="gift-box reveal" type="button" data-gift aria-label="Open the gift"><span class="gift-lid"></span><span class="gift-body"></span><span class="gift-ribbon"></span></button>
+      <div class="gift-reveal" data-gift-reveal hidden><p>You deserve all the happiness in the world. ❤</p><a class="primary-cta page-link" href="memories.html">Continue the Journey →</a></div>
+    </section>
+  </main>
+  <footer class="site-credit">Designed and developed by <strong>Kush</strong></footer>
+</body>
+</html>

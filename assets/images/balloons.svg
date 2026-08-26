@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Pastel balloons">
+  <rect width="420" height="420" fill="none"/>
+  <g fill="none" stroke="#6b4a78" stroke-width="3" stroke-linecap="round">
+    <path d="M145 202c-10 46-10 83 0 112"/>
+    <path d="M238 194c15 54 14 94-3 124"/>
+    <path d="M308 198c-22 48-29 84-20 111"/>
+  </g>
+  <ellipse cx="132" cy="116" rx="66" ry="84" fill="#ff7eb3"/>
+  <ellipse cx="237" cy="103" rx="72" ry="88" fill="#7ddcff"/>
+  <ellipse cx="315" cy="123" rx="58" ry="76" fill="#ffd166"/>
+  <path d="M132 194l-18 24h36z" fill="#ff7eb3"/>
+  <path d="M237 193l-19 24h38z" fill="#7ddcff"/>
+  <path d="M315 198l-16 22h32z" fill="#ffd166"/>
+</svg>

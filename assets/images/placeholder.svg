@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-label="Photo placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#ffe0ef"/>
+      <stop offset=".52" stop-color="#dff6ff"/>
+      <stop offset="1" stop-color="#fff2c6"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#g)"/>
+  <circle cx="450" cy="410" r="225" fill="rgba(255,255,255,.72)"/>
+  <text x="450" y="432" text-anchor="middle" font-family="Georgia,serif" font-size="76" font-weight="700" fill="#c03f82">Photo</text>
+  <text x="450" y="760" text-anchor="middle" font-family="Arial,sans-serif" font-size="35" font-weight="700" fill="#9b3b75">Replace with her picture</text>
+</svg>

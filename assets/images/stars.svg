@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Sparkling stars">
+  <rect width="420" height="420" fill="none"/>
+  <g fill="#ffd166">
+    <path d="M212 50l24 86 86 24-86 24-24 86-24-86-86-24 86-24z"/>
+    <path d="M94 256l12 42 42 12-42 12-12 42-12-42-42-12 42-12z"/>
+    <path d="M322 255l9 32 32 9-32 9-9 32-9-32-32-9 32-9z"/>
+  </g>
+  <g fill="#ff7eb3" opacity=".82">
+    <circle cx="90" cy="94" r="16"/>
+    <circle cx="332" cy="118" r="12"/>
+    <circle cx="248" cy="348" r="10"/>
+  </g>
+</svg>
